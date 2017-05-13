@@ -8,8 +8,8 @@ function loadData() {
     var $greeting = $('#greeting');
 
     // clear out old data before new request
-    $wikiElem.text("");
-    $nytElem.text("");
+    $wikiElem.text(" ");
+    $nytElem.text(" ");
 
     var streetStr = $('#street').val();
     var cityStr = $('#city').val();
